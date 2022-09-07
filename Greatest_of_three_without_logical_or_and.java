@@ -1,10 +1,15 @@
+import java.util.Scanner;
 class greater
 {
     public static void main(String args[])
     {
-        int a=Integer.parseInt(args[0]);
-        int b=Integer.parseInt(args[1]);
-        int c=Integer.parseInt(args[2]);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter First Number: ");
+        int a=sc.nextInt();
+        System.out.print("Enter First Number: ");
+        int b=sc.nextInt();
+        System.out.print("Enter First Number: ");
+        int c=sc.nextInt();
         if(a>b)
         {
             if(a>c)
