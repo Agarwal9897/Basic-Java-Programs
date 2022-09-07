@@ -2,8 +2,11 @@ import java.util.Scanner;
 class numdays {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Date: ");
         int date=sc.nextInt();
+        System.out.print("Enter Month: ");
         int mon=sc.nextInt();
+        System.out.print("Enter Year: ");
         int year=sc.nextInt();
         int current_years=year;
         int days=0;
