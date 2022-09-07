@@ -1,4 +1,4 @@
-class possible {
+class All_possible_combinations_of_three_digits {
     public static void main(String args[]){
         int num[]=new int[3];
         for(int i=0;i<3;i++)
